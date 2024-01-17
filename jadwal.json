@@ -1,0 +1,43 @@
+{
+  "timenext": 16,
+  "jadwal": {
+    "1": [
+      {
+        "worker": "Matematika",
+        "time": "08.00"
+      },
+      {
+        "worker": "Matematika",
+        "time": "08.40"
+      },
+      {
+        "worker": "Matematika",
+        "time": "09.20"
+      }
+    ],
+    "2": [
+      {
+        "worker": "Matematika",
+        "time": "07.30"
+      }
+    ],
+    "4": [
+      {
+        "worker": "Seni budaya",
+        "time": "07.20 - 09.20"
+      },
+      {
+        "worker": "IPS",
+        "time": "09.20 - 10.55"
+      },
+      {
+        "worker": "IPA",
+        "time": "10.55 - 13.35"
+      },
+      {
+        "worker": "BK",
+        "time": "13.35 - 14.15"
+      }
+    ]
+  }
+}
