@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jadwal Overlay</title>
+  <link href="./style.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="boxclass">
+    <div class="boxresponse">
+      <div class="box-jadwal">
+        <div class="header-jadwal">
+          <select id="select-jadwal">
+            <option value="">Pilih Opsi</option>
+            <option value="0">Minggu</option>
+            <option value="1">Senin</option>
+            <option value="2">Selasa</option>
+            <option value="3">Rabu</option>
+            <option value="4">Kamis</option>
+            <option value="5">Jum'at</option>
+            <option value="6">Sabtu</option>
+          </select>
+        </div>
+        <div id="data-error"></div>
+        <div class="content-jadwal" id="content-jadwal"></div>
+      </div>
+    </div>
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>
