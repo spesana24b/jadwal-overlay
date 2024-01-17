@@ -13,6 +13,9 @@ async function OpenContentMatcher() {
     }
     const data = await datafetch.json()
 
+    if(new URLSearchParams(location.search).get("disabled_response")) {
+      document.querySelector('.boxresponse').style.maxWidth = "100%"
+    }
     const resetMentions = () => {
       document.getElementById('content-jadwal').innerHTML = `<div class="view-none">Pilih untuk mencari opsi konten</div>`
     }
